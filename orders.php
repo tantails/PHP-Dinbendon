@@ -118,6 +118,7 @@
 																		$n = explode(",", $row["n"]);
 																		for($i=0;$i<count($sname);$i++){
 																			?>
+																			11
 																			<span class="badge badge-pill badge-<?=(empty($n[$i]))?"success":"danger"?> badge-name" 
 																			data-toggle="popover" data-placement="top"  data-trigger="hover" 
 																			data-container="body"
